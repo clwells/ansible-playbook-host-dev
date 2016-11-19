@@ -1,0 +1,8 @@
+---
+
+- name: Deploy Dev
+  hosts: clw.dev
+  roles:
+    - { role: ansible-role-server }
+    - { role: ansible-role-ntp }
+    - { role: ansible-role-clwells }

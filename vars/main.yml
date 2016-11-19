@@ -1,0 +1,8 @@
+---
+ansible_ssh_user: root
+ntp_enabled: true
+ntp_timezone: America/Detroit
+
+user_home: /home/clwells
+unix_user: clwells
+unix_group: clwells

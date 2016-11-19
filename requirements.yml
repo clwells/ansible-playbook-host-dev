@@ -1,0 +1,5 @@
+---
+  - { role: geerlingguy.ntp }
+  - { role: mikegleasonjr.firewall }
+  - { role: 'git+https://github.com/nexcess/ansible-role-server.git' }
+  - { role: 'git+https://github.com/nexcess/ansible-role-clwells.git' }
