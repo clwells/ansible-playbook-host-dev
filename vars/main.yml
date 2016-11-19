@@ -1,5 +1,4 @@
 ---
-ansible_ssh_user: root
 ntp_enabled: true
 ntp_timezone: America/Detroit
 
