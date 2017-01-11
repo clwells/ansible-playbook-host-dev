@@ -1,2 +1,5 @@
 ---
 ansible_ssh_user: root
+firewall_v4_group_rules:
+  400 allow frontnet https traffic:
+    - -A INPUT -p tcp --dport 443 -j ACCEPT
